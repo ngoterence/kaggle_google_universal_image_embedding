@@ -29,7 +29,7 @@ def plot_image_transformations(base_image_id="packaged_accessories_t1_2"):
             axes[i,j].imshow(img)
     plt.show()
 
-
-
-
-plot_image_transformations(base_image_id="dishes_t1_2")
+    
+    
+if __name__ == "__main__":
+    plot_image_transformations(base_image_id="dishes_t1_2")
